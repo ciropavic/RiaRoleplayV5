@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+#bg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: linear-gradient(to right, #4d4d4d, #696969);
+	height: 33%;
+	width: 13.2%;
+	border: 5px solid;
+	border-color: rgb(44, 44, 44);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.button {
+	width:50;
+	height:50;
+	font-size:25;
+	margin:2;
+	cursor:pointer;
+	background: #3a3a3a;
+	border: none;
+	color: white;
+}
+
+.textview {
+	width:217;
+	margin:5;
+	font-size:25;
+	padding:5;
+	border: none;
+	color: #3a3a3a;
+}

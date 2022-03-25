@@ -1,0 +1,325 @@
+@import url('http://fonts.googleapis.com/css?family=Great+Vibes');
+#cursor {
+  position: absolute;
+  z-index: 99999999;
+  display: block;
+}
+
+.full-screen {
+  width: 100%;
+  height:100%;
+  align-items: center;
+
+}
+
+#main_container {
+  width: 60%;
+  display:none;
+  position: relative;
+  align-items: center;
+  vertical-align: top;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  left:20%;
+  transform: scale(0.6);
+  top: -20%;
+  
+  background: url(img/document.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: middle;
+  }
+
+h1 { font-weight: 600; font-size:40px; line-height: 42px; }
+h2 { font-weight: 500; font-size:30px; line-height: 32px; }
+
+h4 { font-weight: 400; }
+
+h3 {
+	font-size: 26px;
+	line-height: 5px;
+
+	margin-top: 20px;
+}
+h4 {
+	line-height: 5px;
+	font-size: 24px;
+	margin-bottom: 20px;
+
+}
+
+#section_header {
+	width: 100%;
+	margin-bottom: 20px;
+}
+#header_title {
+	width:100%;
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 46px;
+	line-height: 48px;
+	text-align: center;
+	margin-bottom: 40px;
+	font-weight: 650;
+	color:white;
+	background-color: rgb(121, 7, 7);
+	font-style:italic;
+}
+#header_information_block
+{
+	width:99.4%;
+	border: 0px solid black;
+	height:40px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-style: italic;
+	background-color: rgb(121, 7, 7);
+}
+.header_information_subblock
+{
+	display: inline-block;
+	width: 49%;
+	border:0px solid blue;
+	vertical-align: top;
+	align-items: top;
+}
+
+#header_seal {
+    display: inline-block;
+    width: 47%;
+    height: 350px;
+    background: url(https://r.resimlink.com/nZjA.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: middle;
+}
+
+#header_details {
+	display: none;
+	display:inline-block;
+	width:47%;
+	height: auto;
+	border: 0px solid red;
+	overflow: hidden;
+  	font-family: 'Open Sans', sans-serif;
+  	font-size: 22px;
+  	line-height: 22px;
+  	text-align: left;
+  	vertical-align: top;
+	margin-left:40px;
+	font-style:italic;
+	font:bold;
+	color:rgb(5, 0, 0);
+}
+
+#section_block {
+	width:99.4%;
+	border: 0px solid black;
+	height:44px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	line-height: 43px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	background-color: rgb(121, 7, 7);
+	font-style: italic;
+}
+
+#section_input {
+	display:inline-block;
+	width: 98%;
+	height:auto;
+	border: 0px solid blue;
+	overflow: hidden;
+  	font-family: 'Open Sans', sans-serif;
+  	text-align: center;
+	margin-left:10px;
+	margin-right: 10px;
+	left:50%;
+
+}
+#section_footer {
+	display:inline-block;
+	width: 100%;
+	height:auto;
+	overflow: hidden;
+  	font-family: 'Open Sans', sans-serif;
+  	text-align: center;
+	margin-left:0px;
+
+	margin-top: 30px;
+	
+
+}
+#section_footer_block {
+	width:98%;
+	border: 0px solid black;
+	height:44px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-size: 30px;
+	line-height: 43px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	background-color: rgb(121, 7, 7);
+	margin-top: 30px;
+}
+
+#section_footer_left_side {
+	display:inline-block;
+	width:49%;
+	height:auto;
+}
+#section_footer_right_side {
+	display:inline-block;
+	width:49%;
+	height:auto;
+}
+#sign_terms_block {
+	width:auto;
+	height:auto;
+	border:0px solid red;
+	vertical-align: top;
+	padding-right: 35px;
+	border:2px solid black;
+	margin-left: 0px;
+	font-family: verdana;
+	font-size: large;
+	color: rgb(250, 239, 239);
+	background-color: rgb(9, 112, 47);
+
+}
+#signature_block {
+
+	width:auto;
+	height:auto;
+	border:2px solid black;
+	font-family: 'Great Vibes', Helvetica, sans-serif;
+	font-style:italic;
+	font-size: 50px;
+	stroke-dasharray: 230;
+	stroke-dashoffset: 5;
+	position:relative;
+	left:15px;
+	top:15px;
+	color: white;
+	background-color:rgb(9, 112, 47);	  
+  }
+.signature_block_signed {
+	background: url(img/signature.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    line-height:60px!important;
+}
+
+li {
+	text-align: justify;
+}
+#signature_block:hover {
+	cursor:hand;
+}
+
+.input_label {
+	display:inline-block;
+	width: 98%;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#button_close {
+	position: relative;
+	width:50px;
+	height:50px;
+	font-size: 46px;
+	line-height: 50px;
+	font-family: 'Times New Roman';
+	text-align: center;
+	left:1100px;
+	top:-10px;
+	background-color: red;
+}
+
+button {
+	display:inline-block;
+	width: 48%;
+	height:60px;
+	margin-top: 20px;
+	margin-right: 10px;
+	background-color: rgb(121, 7, 7);
+	color: white;
+	font-size: x-large;
+	position:relative;
+	top:10px;
+	font-style: italic;
+}
+
+textarea {
+	display:inline-block;
+	width: 97%;
+	height: 200px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	margin-left:10px;
+	margin-right: 10px;
+	padding-left: 8px;
+	left:50%;
+	border:2px solid black;
+	background-color: rgba(60, 173, 196, 0.707);
+    font-weight: bold;
+
+}
+input {
+	display:inline-block;
+	width: 98%;
+	height: 46px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	line-height: 24px;
+	padding-left: 8px;
+	margin-left:10px;
+	margin-right: 10px;
+	border:2px solid black;
+	
+}
+.must_fill {
+	border:2px solid red;
+
+}
+/*
+input,textarea:focus {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	line-height: 22px;
+    outline-width: 0;
+    border:2px solid black;
+}
+*/
+.submit_text_area {
+	display:inline-block;
+	width: 98%;
+	color: rgb(0, 0, 0);
+	font-family: "Times New Roman", Times, serif;
+	font: bold;
+	font-size: 30px;
+	color: red;
+}
+.submit_input {
+	display:inline-block;
+	width: 49%;
+	color:rgb(22, 1, 1);
+	/* border-bottom: 1px solid black; */
+
+}

@@ -1,0 +1,53 @@
+body {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+    overflow: hidden;
+    display: none;
+    color: #ffffff;
+    font-style:italic;
+    margin-top: -1px;
+	background-image: url(https://i.hizliresim.com/aOEI0H.jpg);
+    background-size: cover;
+}
+
+.dialog {
+	width: 300px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 300px;
+	padding: 10px;
+	box-shadow: 0px 0px 50px 0px #000;
+	background-color: #0a010191;
+	overflow: hidden;
+	opacity: 0.9;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 7px;
+	text-align: center;
+}
+
+button {
+	display: block;
+	margin-top: 5px;
+	padding: 10px;
+	background-color: #884343;
+	border: 0;
+	color: #fff;
+	width: 100%;
+}
+
+h1 {
+	display: block;
+	margin-top: 5px;
+	margin-right: 5px;
+	padding: 10px;
+	background-color: #884343;
+	color: #fff;
+	width: 93%;
+	text-align: center;
+	font-style:italic;
+}

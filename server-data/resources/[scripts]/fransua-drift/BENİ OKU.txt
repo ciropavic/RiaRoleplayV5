@@ -1,0 +1,10 @@
+Bu drift modu Fransua tarafından geliştirilmiş.
+
+FivemTürk ailesine özel olarak paylaşılmıştır.
+
+Lütfen başka forumlarda kendinizinmiş gibi paylaşmayın.
+
+server.cfg içine start fransua-drift yazmanız yeterli.
+
+Shift tuşu ile çalışır.
+mythic_notify alert entegrelidir.

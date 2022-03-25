@@ -1,0 +1,1 @@
+INSERT IGNORE INTO `items`(`name`, `label`, `limit`, `rare`, `can_remove`) VALUES ('lockpick', 'Wytrych', -1, 0 ,1);
